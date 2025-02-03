@@ -23,7 +23,7 @@ buttonSub.addEventListener('click', function(event){
     } else if (i % 5 === 0) {
         output = "Buzz";
     } else {
-        output = String(i)
+        output = i
     }
     // Display the result on the page
     result.textContent = output;
